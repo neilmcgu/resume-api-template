@@ -1,5 +1,6 @@
 # My Awesome Project
-Turns a resume into an API
+Display a resume as a website and an API
+
 
 **Link to project:** http://recruiters-love-seeing-live-demos.com/
 
@@ -7,26 +8,29 @@ Turns a resume into an API
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Node.js, Express
+Simple express server created in Node.js to display a javascript object as an HTML page using EJS
 
-Created a class Resume which takes in all the information
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+**Tech used:** HTML, CSS, JavaScript, Node.js, Express, EJS
+
+
+Created a class Resume which takes in professional information
+Used EJS to render all of the information from the resume object
+Added routes for all of the API endpoints
+Added some simple style
+
 
 ## Optimizations
-*(optional)*
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+
+Documentation should be added so users know how to interact with the API
+The style could be improved to match a standard resume format and improve readability
+Exception handling could be added for any missing fields
+A form could be added so the user can upload their own resume without going into the code
+
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+When building out an API you can really go wild with the routes and include one for every piece of information
 
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
 
-**Palettable:** https://github.com/alecortega/palettable
-
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
-
-**Patch Panel:** https://github.com/alecortega/patch-panel
