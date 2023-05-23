@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title><%= resume.name  %></title>
 </head>
 <body>
@@ -13,14 +14,14 @@
 
     <section class="contact">
         <h2>Contact</h2>
-        <p><%= resume.email %></p>
-        <p><%= resume.phone %></p>
+        <p><a href="mailto:"><%= resume.email %></a></p>
+        <p><a href="tel:+"><%= resume.phone %></a></p>
     </section>
 
     <section class="education">
         <h2>Education</h2>
         <% resume.education.forEach(function(school) { %>
-            <h3><%= school.name %></h3>
+            <h3><%= school.school %></h3>
             <h4><%= school.degree %></h4>
             <p><%= school.startDate %> to <%= school.endDate %></p>
         <% }) %>
