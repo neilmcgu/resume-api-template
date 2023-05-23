@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= resume.name  %></title>
+</head>
+<body>
+    <h1><%= resume.name %></h1>
+    <h2><%= resume.title %></h2>
+    <p><%= resume.summary %></p>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <p><%= resume.email %></p>
+        <p><%= resume.phone %></p>
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <% resume.education.forEach(function(school) { %>
+            <h3><%= school.name %></h3>
+            <h4><%= school.degree %></h4>
+            <p><%= school.startDate %> to <%= school.endDate %></p>
+        <% }) %>
+    </section>
+
+    <section class="experience">
+        <h2>Experience</h2>
+        <% resume.experience.forEach(function(job) { %>
+            <h3><%= job.title %></h3>
+            <h4><%= job.company %></h4>
+            <p><%= job.location %></p>
+            <h4><%= job.startDate %> to <%= job.endDate %></h4>
+            <ul>
+                <% job.summary.forEach(function(summary) { %>
+                    <li><%= summary %></li>
+                <% }) %>
+            </ul>
+        <% }) %>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <% resume.projects.forEach(function(project) { %>
+            <h3><%= project.title %></h3>
+            <h4><%= project.date %></h4>
+            <p><%= project.description %></p>
+        <% }) %>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <% resume.skills.forEach(function(skill) { %>
+                <li><%= skill %></li>
+            <% }) %>
+        </ul>
+    </section>
+    
+    <section class="socials">
+        <h2>Socials</h2>
+        <ul>
+            <% resume.socials.forEach(function(social) { %>
+                <li><a href="<%= social.link %>"><%= social.username %></a></li>
+            <% }) %>
+        </ul>
+    </section>
+
+</body>
+</html>
