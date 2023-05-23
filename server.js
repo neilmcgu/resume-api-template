@@ -17,3 +17,24 @@ app.get("/", (req, res) => {
 app.get("/resume", (req, res) => {
   res.json(resume);
 });
+app.get("/documentation", (req, res) => {
+  res.sendFile(__dirname + "/index.html");
+});
+app.get("/contact", (req, res) => {
+  res.json(resume.contactInformation());
+});
+app.get("/education", (req, res) => {
+  res.json(resume.education);
+});
+app.get("/experience", (req, res) => {
+  res.json(resume.experience);
+});
+app.get("/projects", (req, res) => {
+  res.json(resume.projects);
+});
+app.get("/skills", (req, res) => {
+  res.json(resume.skills);
+});
+app.get("/socials", (req, res) => {
+  res.json(resume.socials);
+});

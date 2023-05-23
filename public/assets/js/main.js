@@ -66,6 +66,15 @@ class Resume {
   ) {
     this.education.push(education);
   }
+
+  contactInformation() {
+    return {
+      name: this.name,
+      email: this.email,
+      phone: this.phone,
+      socials: this.socials,
+    };
+  }
 }
 
 const resume = new Resume();
