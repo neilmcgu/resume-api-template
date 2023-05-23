@@ -90,43 +90,43 @@ example.skills = [
     'Jira',
 ]
 example.experience = [
-    {
-        title: 'Software Engineer',
-        company: '100 Devs',
-        location: 'San Francisco, CA',
-        startDate: '2020-10-01',
-        endDate: null,
-        summary: [
-            'Built a full-stack web application using React, Node.js, and PostgreSQL',
-            'Implemented a REST API to handle CRUD operations',
-            'Created a responsive UI using React and Bootstrap',
-        ],
-    },
-    {
-        title: 'Software Engineer',
-        company: '200 Devs',
-        location: 'San Francisco, CA',
-        startDate: '2019-01-01',
-        endDate: '2020-09-30',
-        summary: [
-            'Built a full-stack web application using React, Node.js, and PostgreSQL',
-            'Implemented a REST API to handle CRUD operations',
-            'Created a responsive UI using React and Bootstrap',
-        ]
-    }
-    {
-        title: 'Software Engineer',
-        company: '300 Devs',
-        location: 'San Francisco, CA',
-        startDate: '2018-01-01',
-        endDate: '2018-12-31',
-        summary: [
-            'Built a full-stack web application using React, Node.js, and PostgreSQL',
-            'Implemented a REST API to handle CRUD operations',
-            'Created a responsive UI using React and Bootstrap',
-        ]
-    }
-]
+  {
+    title: "Software Engineer",
+    company: "100 Devs",
+    location: "San Francisco, CA",
+    startDate: "2020-10-01",
+    endDate: null,
+    summary: [
+      "Built a full-stack web application using React, Node.js, and PostgreSQL",
+      "Implemented a REST API to handle CRUD operations",
+      "Created a responsive UI using React and Bootstrap",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company: "200 Devs",
+    location: "San Francisco, CA",
+    startDate: "2019-01-01",
+    endDate: "2020-09-30",
+    summary: [
+      "Built a full-stack web application using React, Node.js, and PostgreSQL",
+      "Implemented a REST API to handle CRUD operations",
+      "Created a responsive UI using React and Bootstrap",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company: "300 Devs",
+    location: "San Francisco, CA",
+    startDate: "2018-01-01",
+    endDate: "2018-12-31",
+    summary: [
+      "Built a full-stack web application using React, Node.js, and PostgreSQL",
+      "Implemented a REST API to handle CRUD operations",
+      "Created a responsive UI using React and Bootstrap",
+    ],
+  },
+];
 example.projects = [
     {
         title: 'Project 1',
