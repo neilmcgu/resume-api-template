@@ -1,10 +1,11 @@
-# My Awesome Project
+# Resume as a Website and API
+
 Display a resume as a website and an API
 
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:** coming soon
 
-![alt tag](http://placecorgi.com/1200/650)
+
 
 ## How It's Made:
 
