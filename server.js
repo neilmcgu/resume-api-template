@@ -13,6 +13,14 @@ app.listen(PORT, () => {
 app.get("/", (req, res) => {
   res.render("index.ejs", { resume: resume });
 });
+app.get("/api-reference", (req,res)=>{
+  res.render("api-reference.ejs", {resume: resume});
+})
+app.get("/update", (req,res)=>{
+  res.render("update.ejs", {resume: resume});
+})
+
+// API Routes
 
 app.get("/resume", (req, res) => {
   res.json(resume);

@@ -26,3 +26,16 @@ h3 {
     color: #8e96f0;
   }
 }
+
+/* Header */
+header ul {
+  display: flex;
+}
+header ul li {
+  margin: 0 1rem;
+}
+
+header ul {
+  list-style: none;
+}
+
