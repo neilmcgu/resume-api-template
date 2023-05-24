@@ -3,7 +3,7 @@ Resume as a Website is an API that helps you display your resume as a website.
 
 ## Demo
 <p align="center" width="100%">
-    <img src="public/assets/website-as-resume.gif" width="100%" alt="Preview gif of the random quotes page showing a random quote being generated on button click"/>
+    <img src="public/assets/website-as-resume.gif" width="100%" alt="Preview gif of the example resume"/>
 </p>
 
 ## Live Preview
