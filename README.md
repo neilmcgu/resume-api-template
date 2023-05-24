@@ -109,6 +109,8 @@ resume.summary =
 - Improvement in style to match a standard resume format and improve readability
 - Exception handling for missing fields
 - Form integration so users can upload their resume file or form addition with input fields for each field that will then generate the resume page for the user
+- Add about section
+
 
 ## Lessons Learned
 When building out an API you can really go wild with the routes and include one for every piece of information
