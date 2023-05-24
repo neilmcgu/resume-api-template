@@ -113,14 +113,6 @@ resume.summary =
 ## Lessons Learned
 When building out an API you can really go wild with the routes and include one for every piece of information
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](LINK HERE)
-
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](LINK HERE)
-
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](LINK HERE)
-
-
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
