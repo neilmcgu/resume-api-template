@@ -105,7 +105,7 @@ resume.summary =
 ```
 
 ## Roadmap
-- Documentation to be added so users know how to inteeract with the API
+- Add API reference as a view
 - Improvement in style to match a standard resume format and improve readability
 - Exception handling for missing fields
 - Form integration so users can upload their resume file or form addition with input fields for each field that will then generate the resume page for the user
